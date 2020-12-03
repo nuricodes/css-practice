@@ -13,3 +13,7 @@ h1 {
 .cyan {
     color: cyan;
 }
+
+.line-through {
+    text-decoration: line-through;
+}
