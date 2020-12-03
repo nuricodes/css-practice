@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+.section {
+    background-color: green;
+    color: white;
+}
+
+.section-title {
+    font-family: Arial;
+}
+
+.cyan {
+    color: cyan;
+}
