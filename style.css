@@ -1,0 +1,47 @@
+*{
+    box-sizing: none;
+}
+
+.input {
+    border: 1px solid #AAA;
+    outline: none;
+    font-size: inherit;
+    padding: .5em;
+    border-radius: .2em;
+}
+
+.input:focus {
+    border-color: #0AF;
+    box-shadow: 0 0 5px 0 #0af;
+}
+
+.input.Success {
+    border-color: #27AE60;
+}
+
+.input.Success:focus {
+    border-color: #0f0;
+    box-shadow: 0 0 5px 0 #0f0;
+}
+
+.input.Error {
+    border-color: #EB5757;
+}
+
+.input.Error:focus {
+    border-color: #F00;
+    box-shadow: 0 0 5px 0 #f00;
+}
+
+.input.Large {
+    font-size: 1.25rem;
+}
+
+.input.Small {
+    font-size: .75rem
+}
+
+input:disabled {
+    background-color: #EAEAEA;
+}
+
