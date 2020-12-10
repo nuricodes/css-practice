@@ -1,0 +1,17 @@
+* {
+    box-sizing: none;
+}
+
+.btn {
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid hsl(0,0%,70%);
+    outline: none;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .3em;
+    box-shadow: 0 0 5px 0 hsl(0,0%,70%);
+}
+
+.btn:hover {
+    background-color: hsl(0,0%,80%);
+}
